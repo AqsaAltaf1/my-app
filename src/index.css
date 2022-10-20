@@ -1,0 +1,55 @@
+.App{
+    background-color: rgb(201, 221, 214);
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.sidebar{
+    height: 100%;
+    width: 250px;
+    background-color:#4d9385;
+}
+
+.sidebarList{
+
+    height:auto;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebarList .row{
+
+    width: 100%;
+    height: 60px;
+    list-style-type:none;
+    margin: 0%;
+    display: flex;/*so dont block*/
+    flex-direction: row; /*to show in row*/
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.sidebarList .row:hover{
+    cursor: pointer;
+    background-color: #296865;
+}
+
+.row #icon{
+    flex: 30%;/*icon div will be 30 of the screen*/
+    display: grid;
+    place-items: center;
+}
+
+.row #title{
+    flex: 80%;
+
+}
