@@ -1,0 +1,47 @@
+.Money{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.Charity{
+        flex: 1;
+        width: 250px;
+        height: 250px;
+        margin:10px 20px;
+        padding: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        justify-content: center;
+        box-shadow: -7px 15px 37px 0px rgba(83,145,100,0.75);
+    -webkit-box-shadow: -7px 15px 37px 0px rgba(83,145,100,0.75);
+    -moz-box-shadow: -7px 15px 37px 0px rgba(83,145,100,0.75);
+}
+
+.CharityTotalRequest{
+      
+    margin:20px 180px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.CharityLogo{
+
+    margin:20px 190px;
+    align-items: center;
+}
+
+.CharityBlood{
+
+    margin:20px 150px;
+    font-size: 20px;
+    align-items: center;
+
+}
+
+.CharityItem .Icon{
+
+    font-size:50px;
+    color: rgb(221, 133, 101);
+}

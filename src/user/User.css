@@ -1,0 +1,32 @@
+.userTitle{
+
+    box-shadow: -7px 15px 37px 0px rgba(83,145,100,0.75);
+    -webkit-box-shadow: -7px 15px 37px 0px rgba(83,145,100,0.75);
+    -moz-box-shadow: -7px 15px 37px 0px rgba(83,145,100,0.75);
+    padding: 20px;
+    margin:20px;
+    border-radius: 10px;
+
+}  
+
+.listItem{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 10px;
+    padding:5px;
+
+    
+}
+
+.userImg{
+    font: 40px;
+    height: 40px;
+    border-radius: 59%;
+    object-fit: cover;
+}
+
+
+
+

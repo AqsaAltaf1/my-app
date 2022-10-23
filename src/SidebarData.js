@@ -7,7 +7,7 @@ import CampaignIcon from '@mui/icons-material/Campaign';
 import EmailIcon from '@mui/icons-material/Email';
 //array of objects
 
-export const SidebarData =
+const SidebarData =
 [
     {
       title:"Home",
@@ -47,3 +47,5 @@ export const SidebarData =
       }
 
 ]
+
+export default SidebarData;
